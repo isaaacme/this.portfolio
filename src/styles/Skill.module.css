@@ -1,9 +1,10 @@
 .Skill {
-  border: 1px solid #222;
+  background-color: white;
   padding: 2rem;
   display: grid;
-  grid-template: 3rem repeat(2, 1fr) / 1fr;
-  max-height: 18rem;
+  gap: 1rem 0;
+  grid-template: 60px repeat(2, 1fr) / 1fr;
+  max-height: 20rem;
 }
 
 .title {
@@ -13,19 +14,19 @@
 }
 
 .cta {
-  position: relative;
-  top: 16rem;
   align-self: end;
   font-weight: 900;
   text-transform: uppercase;
   color: var(--main-light);
-  background-size: 50%;
+  background-size: 26%;
   background-image: url(../../public/yellow-arrow.svg);
   background-repeat: no-repeat;
-  background-position: 10% 620%;
-  width: 26rem;
+  background-position: 4% 40%;
   height: 4rem;
   transition: var(--hover);
-  z-index: 11;
   cursor: pointer;
+}
+
+.cta:hover {
+  background-position: 999% 40%;
 }
