@@ -1,0 +1,18 @@
+.CallToAction {
+  padding-top: 0.5rem;
+  background-image: url(../../public/yellow-arrow.svg);
+  background-repeat: no-repeat;
+  background-position: 16% 80%;
+  width: 12rem;
+  height: 3rem;
+  transition: var(--hover);
+}
+
+.CallToAction a {
+  color: var(--main-color);
+  font-weight: 700;
+}
+
+.CallToAction:hover {
+  background-position: 999% 80%;
+}
