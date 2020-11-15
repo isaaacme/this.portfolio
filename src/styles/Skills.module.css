@@ -1,0 +1,8 @@
+.SectionTitle {
+  margin-bottom: 6rem;
+}
+.SkillsGrid {
+  display: grid;
+  gap: 2rem;
+  grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+}

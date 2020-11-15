@@ -1,0 +1,31 @@
+.Skill {
+  border: 1px solid #222;
+  padding: 2rem;
+  display: grid;
+  grid-template: 3rem repeat(2, 1fr) / 1fr;
+  max-height: 18rem;
+}
+
+.title {
+  color: var(--main-color);
+  font-size: 1.8rem;
+  line-height: 1.1;
+}
+
+.cta {
+  position: relative;
+  top: 16rem;
+  align-self: end;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: var(--main-light);
+  background-size: 50%;
+  background-image: url(../../public/yellow-arrow.svg);
+  background-repeat: no-repeat;
+  background-position: 10% 620%;
+  width: 26rem;
+  height: 4rem;
+  transition: var(--hover);
+  z-index: 11;
+  cursor: pointer;
+}

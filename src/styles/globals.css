@@ -38,6 +38,12 @@ h5 {
   text-transform: uppercase;
 }
 
+h2 {
+  font-size: 3.5rem;
+  color: var(--main-color);
+  font-weight: 900;
+}
+
 /* base styles*/
 a {
   text-decoration: none;
