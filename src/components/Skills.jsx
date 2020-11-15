@@ -5,7 +5,9 @@ import SkillCard from "./SkillCard";
 function Skills(props) {
   return (
     <section>
-      <h2 className={Styles.SectionTitle}>what i can do</h2>
+      <h2 className={Styles.SectionTitle}>
+        How can i add value to <br /> your organization?
+      </h2>
       <div className={Styles.SkillsGrid}>
         <SkillCard
           title="Web development"
@@ -16,16 +18,6 @@ function Skills(props) {
           title="ux/ui design"
           description="From wordpress and webflow site to custom hand coded React Applications, along my journey I\'ve collected all the tools to go from Idea to Execution"
           cta="show me"
-        />
-        <SkillCard
-          title="webmachines podcast"
-          description="A podcast about the more interesting and least talked about subjects in the no-code space. Free form interviews with makers, Founders & visual developers"
-          cta="listen to it"
-        />
-        <SkillCard
-          title="samimkashim .xyz"
-          description="Exclusive clothing brand from the weird side of the internet, brought to you risk free of dark web hackers and internet lurkers"
-          cta="buy cool sh/t"
         />
       </div>
     </section>
