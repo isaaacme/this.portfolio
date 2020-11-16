@@ -1,3 +1,7 @@
+.SkillsSection {
+  margin: 0;
+}
+
 .SectionTitle {
   margin-bottom: 6rem;
   width: 18ch;
@@ -14,7 +18,11 @@
     width: 18ch;
   }
   .SkillsSection {
-    background-color: pink;
     margin: 6rem 0;
+  }
+
+  .SkillsGrid {
+    display: flex;
+    flex-direction: column;
   }
 }

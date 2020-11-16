@@ -14,7 +14,7 @@ function Skills(props) {
         />
         <SkillCard
           title="ux/ui design"
-          description="From wordpress and webflow site to custom hand coded React Applications, along my journey I\'ve collected all the tools to go from Idea to Execution"
+          description="From wordpress and webflow site to custom hand coded React Applications, along my journey I've collected all the tools to go from Idea to Execution"
           cta="show me"
         />
       </div>
