@@ -10,4 +10,11 @@
   font-weight: 900;
   font-size: 1.8rem;
   line-height: 1.1;
+  text-shadow: 2px 2px 0px var(--color-accent);
+}
+
+@media only screen and (max-width: 480px) {
+  .Name {
+    font-size: 2rem;
+  }
 }

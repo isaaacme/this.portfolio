@@ -13,6 +13,10 @@
   line-height: 1.1;
 }
 
+.description {
+  color: var(--light-text);
+}
+
 .cta {
   align-self: end;
   font-weight: 900;

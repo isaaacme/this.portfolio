@@ -2,3 +2,11 @@
   width: 1120px;
   margin: 2rem auto;
 }
+
+@media only screen and (max-width: 480px) {
+  .PageContainer {
+    width: 100%;
+    padding: 0 1rem;
+    margin: 0.75rem auto;
+  }
+}

@@ -4,10 +4,8 @@ import SkillCard from "./SkillCard";
 
 function Skills(props) {
   return (
-    <section>
-      <h2 className={Styles.SectionTitle}>
-        How can i add value to <br /> your organization?
-      </h2>
+    <section className={Styles.SkillsSection}>
+      <h2 className={Styles.SectionTitle}>How can i add value to your team?</h2>
       <div className={Styles.SkillsGrid}>
         <SkillCard
           title="Web development"
