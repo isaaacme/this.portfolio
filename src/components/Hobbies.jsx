@@ -5,7 +5,7 @@ import SkillCard from "./SkillCard";
 function Hobbies(props) {
   return (
     <section>
-      <h2 className={Styles.SectionTitle}>
+      <h2 className={`${Styles.SectionTitle} ${Styles.SectionSkills}`}>
         what else i’ve got <br /> up my sleeves you may ask?
       </h2>
       <div className={Styles.SkillsGrid}>
@@ -15,7 +15,7 @@ function Hobbies(props) {
           cta="listen to it"
         />
         <SkillCard
-          title="samimkashim .xyz"
+          title="samimkashim.xyz"
           description="Exclusive clothing brand from the weird side of the internet, brought to you risk free of dark web hackers and internet lurkers"
           cta="buy things"
         />

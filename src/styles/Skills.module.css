@@ -1,10 +1,14 @@
 .SkillsSection {
-  margin: 0;
+  margin: 12rem 0 0;
 }
 
 .SectionTitle {
   margin-bottom: 6rem;
   width: 18ch;
+}
+
+.SectionSkills {
+  width: 24ch;
 }
 .SkillsGrid {
   display: grid;
