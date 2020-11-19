@@ -11,11 +11,13 @@ function Skills(props) {
           title="Web development"
           description="The ability to look at products and user flows from a business prespetive allows me to create data driven decisions that guide my design to satisfy both visual communication needs and business goals"
           cta="show me"
+          url="/devProjects"
         />
         <SkillCard
           title="ux/ui design"
           description="From wordpress and webflow site to custom hand coded React Applications, along my journey I've collected all the tools to go from Idea to Execution"
           cta="show me"
+          url="/designProjects"
         />
       </div>
     </section>
