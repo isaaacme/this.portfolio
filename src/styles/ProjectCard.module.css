@@ -4,8 +4,11 @@
   padding: 1.6rem;
   display: grid;
   grid: 7rem 1fr 1fr 1fr/ 1fr;
-  background-size: cover;
+  background-size: contain;
+  background-color: grey;
   background-position: center;
+  background-blend-mode: multiply;
+  color: white;
 }
 
 .ProjectCard .title {
