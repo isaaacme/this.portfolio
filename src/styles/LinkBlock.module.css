@@ -1,0 +1,17 @@
+.cta {
+  align-self: end;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: var(--main-light);
+  background-size: 26%;
+  background-image: url(../../public/yellow-arrow.svg);
+  background-repeat: no-repeat;
+  background-position: 4% 40%;
+  height: 4rem;
+  transition: var(--hover);
+  cursor: pointer;
+}
+
+.cta:hover {
+  background-position: 200% 40%;
+}

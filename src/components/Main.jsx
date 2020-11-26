@@ -10,7 +10,6 @@ function Main() {
         or a Web developer & Designer resolving end to end business problems, if
         you're not into abbreviations.
       </p>
-
       <Link href="/about">
         <a className={Styles.cta}>let's work together</a>
       </Link>
