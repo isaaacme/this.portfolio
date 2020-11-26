@@ -4,6 +4,8 @@
   padding: 1.6rem;
   display: grid;
   grid: 7rem 1fr 1fr 1fr/ 1fr;
+  background-size: cover;
+  background-position: center;
 }
 
 .ProjectCard .title {
@@ -33,4 +35,17 @@
 .ProjectCard:nth-child(4) img {
   padding-top: 0.75rem;
   width: 120px;
+}
+
+.ProjectCard:nth-child(1) {
+  background-image: url(/imgs/lazuz.png);
+}
+.ProjectCard:nth-child(2) {
+  background-image: url(/imgs/deskspace.png);
+}
+.ProjectCard:nth-child(3) {
+  background-image: url(/imgs/schoolday.png);
+}
+.ProjectCard:nth-child(4) {
+  background-image: url(/imgs/logofolio.png);
 }
