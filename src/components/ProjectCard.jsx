@@ -8,7 +8,7 @@ function ProjectCard({ title, description, cta, url, logo, alt }) {
       <div className={Styles.ProjectInfo}>
         <h3 className={Styles.title}>{title}</h3>
         <p className={Styles.description}>{description}</p>
-        <Link href={`${url}`}>
+        <Link className={Styles.link} href={`${url}`}>
           <a>
             <div className={Styles.cta}>{cta}</div>
           </a>

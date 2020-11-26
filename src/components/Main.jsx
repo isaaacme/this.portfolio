@@ -13,7 +13,11 @@ function Main() {
       <Link href="/about">
         <a className={Styles.cta}>let's work together</a>
       </Link>
-      <img src="/me.png" alt="dd" className={Styles.me} />
+      <img
+        src="/me.png"
+        alt="its me drinking beer in a meetup lol"
+        className={Styles.me}
+      />
     </div>
   );
 }

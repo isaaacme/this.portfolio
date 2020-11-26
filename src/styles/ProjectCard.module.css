@@ -5,19 +5,9 @@
   display: grid;
   grid: 7rem 1fr 1fr 1fr/ 1fr;
   background-size: contain;
-  background-color: grey;
   background-position: center;
   background-blend-mode: multiply;
   color: white;
-}
-
-.ProjectCard .title {
-  grid-area: 2 / 1 / 1 / 1;
-  padding-bottom: 1rem;
-}
-.ProjectCard p {
-  grid-area: 3 / 1 / 4 / 1;
-  font-size: 1rem;
 }
 
 .ProjectCard img {
@@ -25,6 +15,18 @@
   width: 150px;
   text-align: center;
   justify-self: center;
+  grid-template-columns: 1fr;
+  grid-template-rows: span 1;
+}
+.ProjectCard .title {
+  padding-bottom: 1rem;
+  grid-template-columns: 1fr;
+  grid-template-rows: 2 / 3;
+}
+.ProjectCard p {
+  grid-template-columns: 1fr;
+  grid-template-rows: 3 / 4;
+  font-size: 1rem;
 }
 
 .ProjectCard:nth-child(2) img {
@@ -51,4 +53,9 @@
 }
 .ProjectCard:nth-child(4) {
   background-image: url(/imgs/logofolio.png);
+}
+
+.ProjectCard a div {
+  grid-column: 1fr;
+  grid-row: 4 / 5;
 }
