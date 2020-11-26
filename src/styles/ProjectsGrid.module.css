@@ -1,6 +1,19 @@
 .ProjectsGrid {
   padding: 4rem 0;
   display: grid;
-  grid: repeat(2, 1fr) / repeat(2, 1fr);
+  grid: 1fr / repeat(4, 1fr);
   gap: 2rem;
+}
+
+.ProjectCard:nth-child(1) {
+  background-image: url(/public/images/lazuz.png);
+}
+.ProjectCard:nth-child(2) {
+  background-image: url(/public/images/lazuz.png);
+}
+.ProjectCard:nth-child(3) {
+  background-image: url(/public/images/lazuz.png);
+}
+.ProjectCard:nth-child(4) {
+  background-image: url(/public/images/lazuz.png);
 }

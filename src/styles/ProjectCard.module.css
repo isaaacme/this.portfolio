@@ -1,0 +1,36 @@
+.ProjectCard {
+  width: 240px;
+  height: 427px;
+  padding: 1.6rem;
+  display: grid;
+  grid: 7rem 1fr 1fr 1fr/ 1fr;
+}
+
+.ProjectCard .title {
+  grid-area: 2 / 1 / 1 / 1;
+  padding-bottom: 1rem;
+}
+.ProjectCard p {
+  grid-area: 3 / 1 / 4 / 1;
+  font-size: 1rem;
+}
+
+.ProjectCard img {
+  height: auto;
+  width: 150px;
+  text-align: center;
+  justify-self: center;
+}
+
+.ProjectCard:nth-child(2) img {
+  width: 80px;
+}
+
+.ProjectCard:nth-child(3) img {
+  width: 110px;
+}
+
+.ProjectCard:nth-child(4) img {
+  padding-top: 0.75rem;
+  width: 120px;
+}

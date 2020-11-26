@@ -15,7 +15,6 @@ export default function Home() {
           content="width=device-width, initial-scale=1"
         ></meta>
       </Head>
-
       <Header />
       <Main />
       <Skills />

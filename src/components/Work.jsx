@@ -1,5 +1,5 @@
 import React from "react";
-import Card from "./Card";
+import ProjectCard from "./ProjectCard";
 import Styles from "../styles/ProjectsGrid.module.css";
 
 function Work() {
@@ -7,39 +7,41 @@ function Work() {
     <section>
       <h2>Selected Projects</h2>
       <div className={Styles.ProjectsGrid}>
-        <Card
-          className={Styles.Project}
+        <ProjectCard
+          logo="/logos/lazuz.svg"
+          alt=""
           title="Lazuz Mobile app"
           description="
       Lazuz is an app that builds a positive feedback loop and keeps you on track in your fitness journey"
           cta="Check it out"
           url="/lazuz"
         />
-        <Card
-          className={Styles.Project}
-          title="Lazuz Mobile app"
-          description="
-      Lazuz is an app that builds a positive feedback loop and keeps you on track in your fitness journey"
+        <ProjectCard
+          logo="/logos/deskspace.svg"
+          alt=""
+          title="DeskSpace Marketplace webapp"
+          description="DeskSpace is a place
+          to find an empty desks for freelancers who don’t like large open workspaces "
           cta="Check it out"
-          url="/lazuz"
-        />
-
-        <Card
-          className={Styles.Project}
-          title="Lazuz Mobile app"
-          description="
-      Lazuz is an app that builds a positive feedback loop and keeps you on track in your fitness journey"
-          cta="Check it out"
-          url="/lazuz"
+          url="/deskspace"
         />
 
-        <Card
-          className={Styles.Project}
-          title="Lazuz Mobile app"
-          description="
-      Lazuz is an app that builds a positive feedback loop and keeps you on track in your fitness journey"
+        <ProjectCard
+          logo="/logos/schooolday.svg"
+          alt=""
+          title="Schooolday web/mobile application"
+          description="Schooolday is a dedicated space for students and teachers to communicate without external noise"
           cta="Check it out"
-          url="/lazuz"
+          url="/schooolday"
+        />
+
+        <ProjectCard
+          logo="/logos/logofolio.svg"
+          alt=""
+          title="LogoFolio"
+          description="A collection of Branding Work I've done so far"
+          cta="Check it out"
+          url="/logofolio"
         />
       </div>
     </section>
