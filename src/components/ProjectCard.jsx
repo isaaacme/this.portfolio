@@ -6,7 +6,7 @@ function ProjectCard({ title, description, cta, url, logo, alt }) {
     <div className={Styles.ProjectCard}>
       <img src={logo} alt={alt} />
       <div className={Styles.ProjectInfo}>
-        <h3 className={Styles.title}>{title}</h3>
+        <span className={Styles.title}>{title}</span>
         <p className={Styles.description}>{description}</p>
         <Link className={Styles.link} href={`${url}`}>
           <a>
