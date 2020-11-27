@@ -10,7 +10,7 @@ function Work() {
         <ProjectCard
           logo="/logos/lazuz.svg"
           alt=""
-          title="Mobile app"
+          title="UX/UI Mobile Application "
           description="
       Lazuz is an app that builds a positive feedback loop and keeps you on track in your fitness journey"
           cta="Check it out"
