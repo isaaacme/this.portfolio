@@ -16,9 +16,11 @@
   --main-color: #242745;
   --main-light: #222a70;
   --color-accent: #ffc15c;
+  --color-accent-light: #fcd596;
   --light-grey: #6a6a6a;
   --light-text: #464969;
   --bg-color: #f1eff1;
+  --bg-dark: #e2e0e2;
 
   /*interactions*/
   --hover: all 0.175s ease-in-out;

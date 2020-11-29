@@ -11,8 +11,11 @@
   display: grid;
   gap: 0 1rem;
   grid-template: 2.4rem 1fr / repeat(2, 1fr);
+  padding: 4rem 0;
 }
-
+.ContentBlockImg {
+  margin: 4rem 0;
+}
 .ContentBlock h3:nth-child(3) {
   grid-column: 2;
 }
@@ -24,4 +27,9 @@
 
 .ContentBlock p:nth-child(4) {
   grid-column: 2;
+}
+
+.ContentBlock img {
+  width: 100%;
+  border: 2px solid var(--bg-dark);
 }
