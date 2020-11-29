@@ -1,0 +1,6 @@
+.HighlightBox {
+  border-left: 6px solid var(--color-accent);
+  background-color: darkgrey;
+  padding: 1rem;
+  display: flex;
+}

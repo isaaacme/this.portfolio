@@ -1,5 +1,6 @@
 import React from "react";
 import Styles from "../styles/ProjectPage.module.css";
+import HighlightBox from "./HighlightBox";
 
 function ProjectPage() {
   return (
@@ -16,7 +17,12 @@ function ProjectPage() {
           which keep users focused on their goals and encourages moving forward
         </p>
       </article>
-      <div>⚡ 67% of Gym memberships owners don’t attend the Gym at all.</div>
+      <HighlightBox
+        symbol="⚡"
+        label="lightning"
+        text="67% of Gym memberships owners don’t attend the Gym at all."
+      />
+      <div> </div>
     </main>
   );
 }
