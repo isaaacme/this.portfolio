@@ -33,3 +33,11 @@
   width: 100%;
   border: 2px solid var(--bg-dark);
 }
+
+.UiScreens {
+  padding: 2rem 0;
+}
+.UiScreens img {
+  width: 45%;
+  padding-right: 2rem;
+}

@@ -63,6 +63,13 @@ function ProjectPage() {
         </p>
         <img src="/imgs/axure.png" alt="" />
       </article>
+      <article>
+        <h3>UI Design</h3>
+        <div className={Styles.UiScreens}>
+          <img src="/imgs/lazuz-ui-01.png" alt="" />
+          <img src="/imgs/lazuz-ui-02.png" alt="" />
+        </div>
+      </article>
     </main>
   );
 }
