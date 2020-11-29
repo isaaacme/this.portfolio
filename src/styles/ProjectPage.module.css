@@ -1,0 +1,27 @@
+.ProjectPageContent {
+  width: 1040px;
+  padding: 2rem;
+}
+
+.ProjectPageContent p {
+  color: var(--text-color);
+}
+
+.ContentBlock {
+  display: grid;
+  gap: 0 1rem;
+  grid-template: 2.4rem 1fr / repeat(2, 1fr);
+}
+
+.ContentBlock h3:nth-child(3) {
+  grid-column: 2;
+}
+
+.ContentBlock p:nth-child(2) {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.ContentBlock p:nth-child(4) {
+  grid-column: 2;
+}

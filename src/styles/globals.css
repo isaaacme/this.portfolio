@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@400;700&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -10,7 +12,7 @@
 
 :root {
   /*colors*/
-  --text-color: #111;
+  --text-color: #333;
   --main-color: #242745;
   --main-light: #222a70;
   --color-accent: #ffc15c;
@@ -21,12 +23,14 @@
   /*interactions*/
   --hover: all 0.175s ease-in-out;
   --delay: 0.35s;
+
+  /*typography*/
+  --title-font: "Poppins", sans-serif;
+  --body-font: "Anonymous Pro", monospace;
 }
 
-/*typography*/
-
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: var(--body-font);
   line-height: 1.15;
   font-size: 20px;
   color: var(--text-color);
@@ -37,7 +41,9 @@ h2,
 h3,
 h4,
 h5 {
+  font-family: var(--title-font);
   text-transform: uppercase;
+  color: var(--main-color);
 }
 
 h2 {
@@ -48,6 +54,7 @@ h2 {
 
 /* base styles*/
 a {
+  font-family: var(--title-font);
   text-decoration: none;
   color: inherit;
 }

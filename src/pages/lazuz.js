@@ -1,6 +1,7 @@
 import Head from "next/head";
 import StyleSheet from "../styles/Layout.module.css";
 import InnerPageHeader from "../components/InnerPageHeader";
+import ProjectPage from "../components/ProjectPage";
 export default function Lazuz() {
   return (
     <div className={StyleSheet.PageContainer}>
@@ -12,6 +13,7 @@ export default function Lazuz() {
         ></meta>
       </Head>
       <InnerPageHeader />
+      <ProjectPage />
     </div>
   );
 }

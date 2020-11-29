@@ -7,7 +7,7 @@ function ProjectTitle() {
       <h1>LAZUZ</h1>
       <p>
         Lazuz is an app that builds a positive feedback loop and keeps you on
-        track in your fitness journey
+        track on your fitness journey
       </p>
     </div>
   );

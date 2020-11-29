@@ -1,6 +1,6 @@
 .ProjectTitle {
   margin: 2rem 0 4rem;
-  background-color: var(--main-color);
+  background-color: var(--main-light);
   background-blend-mode: multiply;
   background-image: url(/imgs/lazuz.png);
   background-size: 16% 100%;
@@ -13,8 +13,12 @@
   padding: 2rem;
   color: white;
 }
+.ProjectTitle h1 {
+  font-family: var(--title-font);
+  color: white;
+}
 
 .ProjectTitle p {
-  max-width: 48ch;
+  max-width: 40ch;
   padding: 0.5rem 0;
 }
