@@ -24,13 +24,14 @@ function ProjectPage() {
         text="67% of Gym memberships owners don’t attend the Gym at all."
       />
       <article className={Styles.ContentBlock}>
-        <h3>Design Process</h3>
+        <h3>Scarcity as a service</h3>
         <p>
-          Which means not only most people are wasting their money, but this is
-          actually the financial model for gyms overall. Diving into further
-          research shows the reason people don’t persist is actually rooted in
-          the lack of short term feedback and support from the environment,
-          resulting in frustration and eventually quitting altogether.
+          On averge, a Gym can hold about 30% of their actual paying memebers.
+          this is actually the financial model for gyms overall. Diving into
+          further research shows the reason people don’t persist is actually
+          rooted in the lack of short term feedback and support from the
+          environment, resulting in frustration and eventually quitting
+          altogether.
         </p>
         <h3>Reasearch Conclusion</h3>
         <p>

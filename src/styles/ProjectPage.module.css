@@ -35,9 +35,13 @@
 }
 
 .UiScreens {
-  padding: 2rem 0;
+  display: flex;
+  justify-content: space-between;
 }
+
 .UiScreens img {
+  padding-top: 2rem;
+  display: block;
   width: 45%;
-  padding-right: 2rem;
+  border: 2px solid var(--bg-dark);
 }
