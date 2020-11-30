@@ -47,11 +47,11 @@ export default function Lazuz() {
         <article className={`${Styles.ContentBlock} ${Styles.ContentBlockImg}`}>
           <h3>{ProjectData.projects.lazuz.InfoTitle04}</h3>
           <p>{ProjectData.projects.lazuz.InfoText04}</p>
-          <img src="/imgs/axure.png" alt="" />
           <LinkBlock
             url="https://z4effq.axshare.com/onboarding.html"
             cta="Check the Axure"
           />
+          <img src="/imgs/axure.png" alt="" />
         </article>
         <article>
           <h3>UI Design</h3>
