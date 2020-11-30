@@ -1,0 +1,49 @@
+{
+  "projects": {
+    "lazuz": {
+      "projectTitle": "LAZUZ",
+      "projectBlurb": "Lazuz is an app that builds a positive feedback loop and keeps you on track on your fitness journey",
+      "theChallenge": "People do not persevere on their fitness goals, because there’s no immediate tangible value in the process",
+      "theSolution": "providing a platform for receiving and giving support and feedback which keep users focused on their goals and encourages moving forward",
+      "highLight": "67% of Gym memberships owners don’t attend the Gym at all.",
+      "InfoTitle": "SCARCITY AS A SERVICE",
+      "InfoText": "On averge, a Gym can hold about 30% of their actual paying memebers. this is actually the financial model for gyms overall. Diving into further research shows the reason people don’t persist is actually rooted in the lack of short term feedback and support from the environment, resulting in frustration and eventually quitting altogether.",
+      "InfoTitle02": "REASEARCH CONCLUSION",
+      "InfoText02": "A circle of short and constant feedback loops is essential for people in order for them to advance and achieve their fitness goals.",
+      "InfoTitle03": "ONLINE SURVEY",
+      "InfoText03": "In addition to personal interviews with potential users, I ran an online questionnaire which showed people were aware of outdoor gyms but not considered them a viable alternative to the commercial Gym they were members of.",
+      "InfoTitle04": "",
+      "InfoText04": "The onboarding experience is a crucial element for the app, providing as much value and engagement on the front to the user, making sure he is involved and ready to move forward with the process.",
+      "wireFramingUrl": "https://z4effq.axshare.com/onboarding.html",
+      "wireFramingImg": "",
+      "UIimg01": "",
+      "UIimg02": "",
+      "mainUrl": "Check out the high resolution prototype.",
+      "mainUrlText": "insert Figma prototype URL here",
+      "appUrlText": "download the free App",
+      "androidAppUrl": "Androind url",
+      "iosAppUrl": "iOS url"
+    },
+    "schooolday": {
+      "projectTitle": "Schoolday",
+      "projectBlurb": "Schoolday gives teachers and students a noise-free enviorment to communicate and learn.",
+      "theChallenge": "The rise of remote education due to COVID has created the need for students and teachers alike to not only get familiar but use a chain of products that were never intended for such a wide types of people and levels of education, and the result is confusion, frustration and less time actually learning.",
+      "theSolution": "Schooday allows you to have a noise free environment so students and teachers alike can communitace, ask quesptions, and focus on their education.",
+      "highLight": "About 40% of studdents \"opt out\" of their online based schoolday",
+      "backGroundInfo": "",
+      "researchConclusion": "",
+      "extraData": "",
+      "wireFramingTitle": "",
+      "wireFraming": "",
+      "wireFramingUrl": "",
+      "wireFramingImg": "",
+      "UIimg01": "",
+      "UIimg02": "",
+      "mainUrl": "Check out the high resolution prototype.",
+      "mainUrlText": "insert Figma prototype URL here",
+      "appUrlText": "download the free App",
+      "androidAppUrl": "Androind url",
+      "iosAppUrl": "iOS url"
+    }
+  }
+}
