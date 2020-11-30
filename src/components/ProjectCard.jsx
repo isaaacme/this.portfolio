@@ -1,6 +1,6 @@
-import React from "react";
-import Link from "next/link";
-import Styles from "../styles/ProjectCard.module.css";
+import React from 'react';
+import Link from 'next/link';
+import Styles from '../styles/ProjectCard.module.css';
 function ProjectCard({ title, description, cta, url, logo, alt }) {
   return (
     <div className={Styles.ProjectCard}>
