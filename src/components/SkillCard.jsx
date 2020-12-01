@@ -1,14 +1,13 @@
 import React from 'react';
 import Styles from '../styles/Skill.module.css';
-import LinkBlock from './LinkBlock';
-function Card({ title, description, cta, url }) {
+
+function SkillCard({ title, description }) {
   return (
-    <div className={Styles.Skill}>
+    <div className={`${Styles.Skill} ${Styles.SkillCard}`}>
       <h3 className={Styles.title}>{title}</h3>
       <p className={Styles.description}>{description}</p>
-      <LinkBlock cta={cta} url={url} />
     </div>
   );
 }
 
-export default Card;
+export default SkillCard;
