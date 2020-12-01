@@ -1,6 +1,6 @@
-import React from "react";
-import ProjectCard from "./ProjectCard";
-import Styles from "../styles/ProjectsGrid.module.css";
+import React from 'react';
+import ProjectCard from './ProjectCard';
+import Styles from '../styles/ProjectsGrid.module.css';
 
 function Work() {
   return (
@@ -10,7 +10,6 @@ function Work() {
         <ProjectCard
           logo="/logos/lazuz.svg"
           alt=""
-          title="UX/UI Mobile Application "
           description="
       Lazuz is an app that builds a positive feedback loop and keeps you on track in your fitness journey"
           cta="Check it out"
@@ -19,7 +18,6 @@ function Work() {
         <ProjectCard
           logo="/logos/deskspace.svg"
           alt=""
-          title="Web Application"
           description="DeskSpace is a place
           to find an empty desks for freelancers who don’t like large open workspaces "
           cta="Check it out"
@@ -29,7 +27,6 @@ function Work() {
         <ProjectCard
           logo="/logos/schooolday.svg"
           alt=""
-          title="Mobile application"
           description="Schooolday is a dedicated space for students and teachers to communicate without external noise"
           cta="Check it out"
           url="/schooolday"
@@ -38,7 +35,6 @@ function Work() {
         <ProjectCard
           logo="/logos/logofolio.svg"
           alt=""
-          title="Graphic Design"
           description="A collection of Branding Work I've done so far"
           cta="Check it out"
           url="/logofolio"
