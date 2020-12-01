@@ -107,4 +107,7 @@
   .ContentBlock img {
     grid-column: 1 / span 2;
   }
+  .UiScreens img {
+    margin-top: 1rem;
+  }
 }
