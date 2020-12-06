@@ -42,8 +42,8 @@
       "mainUrl": "Check out the high resolution prototype.",
       "mainUrlText": "insert Figma prototype URL here",
       "appUrlText": "download the free App",
-      "androidAppUrl": "android url",
-      "iosAppUrl": "iOS url"
+      "androidAppUrl": "",
+      "iosAppUrl": ""
     },
     "deskpace": {
       "projectTitle": "Deskpace",

@@ -29,8 +29,8 @@ export default function Logofolio() {
           <p>{ProjectData.projects.logofolio.theSolution}</p>
         </article>
         <HighlightBox
-          symbol="🤸‍♀️"
-          label="person doing roll"
+          symbol="🧑‍🎓"
+          label="student icon"
           text={`${ProjectData.projects.logofolio.highLight}`}
         />
         <article className={Styles.ContentBlock}>
