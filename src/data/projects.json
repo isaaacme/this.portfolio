@@ -21,7 +21,7 @@
       "mainUrl": "Check out the high resolution prototype.",
       "mainUrlText": "insert Figma prototype URL here",
       "appUrlText": "download the free App",
-      "androidAppUrl": "Androind url",
+      "androidAppUrl": "android url",
       "iosAppUrl": "iOS url"
     },
     "schooolday": {
@@ -42,10 +42,10 @@
       "mainUrl": "Check out the high resolution prototype.",
       "mainUrlText": "insert Figma prototype URL here",
       "appUrlText": "download the free App",
-      "androidAppUrl": "Androind url",
+      "androidAppUrl": "android url",
       "iosAppUrl": "iOS url"
     },
-    "lazuz": {
+    "deskpace": {
       "projectTitle": "Deskpace",
       "projectBlurb": "Lazuz is an app that builds a positive feedback loop and keeps you on track on your fitness journey",
       "theChallenge": "People do not persevere on their fitness goals, because there’s no immediate tangible value in the process",
@@ -66,10 +66,10 @@
       "mainUrl": "Check out the high resolution prototype.",
       "mainUrlText": "insert Figma prototype URL here",
       "appUrlText": "download the free App",
-      "androidAppUrl": "Androind url",
+      "androidAppUrl": "android url",
       "iosAppUrl": "iOS url"
     },
-    "lazuz": {
+    "logofolio": {
       "projectTitle": "logo folio",
       "projectBlurb": "Lazuz is an app that builds a positive feedback loop and keeps you on track on your fitness journey",
       "theChallenge": "People do not persevere on their fitness goals, because there’s no immediate tangible value in the process",
@@ -90,7 +90,7 @@
       "mainUrl": "Check out the high resolution prototype.",
       "mainUrlText": "insert Figma prototype URL here",
       "appUrlText": "download the free App",
-      "androidAppUrl": "Androind url",
+      "androidAppUrl": "android url",
       "iosAppUrl": "iOS url"
     }
   }
