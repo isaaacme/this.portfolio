@@ -70,7 +70,7 @@
   padding: 0.5rem 0;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 425px) {
   .ProjectTitle {
     background-size: cover;
     background-position: center;

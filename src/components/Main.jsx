@@ -1,6 +1,6 @@
-import React from "react";
-import Link from "next/link";
-import Styles from "../styles/Main.module.css";
+import React from 'react';
+import Link from 'next/link';
+import Styles from '../styles/Main.module.css';
 
 function Main() {
   return (
@@ -15,7 +15,7 @@ function Main() {
       </Link>
       <img
         src="/me.png"
-        alt="its me drinking beer in a meetup lol"
+        alt="HAving a cold one in a meetup"
         className={Styles.me}
       />
     </div>
