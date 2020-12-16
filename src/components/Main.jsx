@@ -14,8 +14,8 @@ function Main() {
         <a className={Styles.cta}>Hire Me!</a>
       </Link>
       <img
-        src="/me.webp"
-        alt="Having a cold one in a meetup"
+        src="/profile-light-small.webp"
+        alt="me looking all professional"
         className={Styles.me}
       />
     </div>

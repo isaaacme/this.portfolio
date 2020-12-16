@@ -18,6 +18,7 @@
 
 @media only screen and (max-width: 425px) {
   .cta {
+    margin-top: 2rem;
     background-size: 47%;
     background-position: 12% 40%;
   }
