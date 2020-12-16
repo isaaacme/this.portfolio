@@ -14,7 +14,7 @@ function Skills(props) {
 
         <SkillCard
           title="business strategy"
-          description="Understanding the business impact of my work empowers me to make better work and communicate and work with all branches of the organization, and transforming their needs into measurable deliverables"
+          description="Understanding the business impact of my output empowers me to make better work and communicate with all branches of the organization, transforming their needs into measurable deliverables"
         />
         <SkillCard
           title="Web development"
@@ -22,7 +22,7 @@ function Skills(props) {
         />
         <SkillCard
           title="ux/ui design"
-          description="From Brand and Content Strategy through Wordpress and Webflow sites to custom hand coded React applications, along my journey I've collected all the tools to go from Idea to execution and incrementaly improving the product"
+          description="From Brand and Content Strategy through Wordpress and Webflow sites to custom hand coded React applications, along my journey I've collected all the tools to go from idea, execution and iteration"
         />
       </div>
     </section>

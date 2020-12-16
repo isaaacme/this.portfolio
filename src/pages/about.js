@@ -36,15 +36,15 @@ export default function About() {
           optimization.
         </p>
         <div className={Styles.socialLinks}>
-          <Link href="#">
-            <a>Twitter</a>
-          </Link>
-          <Link href="#">
-            <a>Github</a>
-          </Link>
-          <Link href="#">
-            <a>Facebook</a>
-          </Link>
+          <a href="https://twitter.com/isaaacme" target="_blank">
+            Twitter
+          </a>
+          <a href="https://github.com/isaaacme" target="_blank">
+            Github
+          </a>
+          <a href="https://www.linkedin.com/in/isaac-feldman/" target="_blank">
+            Linkedin
+          </a>
         </div>
       </div>
     </div>

@@ -8,7 +8,7 @@ function Hobbies(props) {
       <h2 className={`${Styles.SectionTitle} ${Styles.SectionSkills}`}>
         what else i’ve got <br /> up my sleeves you may ask?
       </h2>
-      <div className={Styles.SkillsGrid}>
+      <div className={`${Styles.SkillsGrid} ${Styles.hobbiesLink}`}>
         <Card
           title="webmachines podcast"
           description="A podcast about the more interesting and least talked about subjects in the no-code space. Free form interviews with makers, Founders & visual developers"
