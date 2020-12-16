@@ -11,11 +11,11 @@ function Main() {
         you're not into abbreviations.
       </p>
       <Link href="/about">
-        <a className={Styles.cta}>let's work together</a>
+        <a className={Styles.cta}>Hire Me!</a>
       </Link>
       <img
         src="/me.webp"
-        alt="HAving a cold one in a meetup"
+        alt="Having a cold one in a meetup"
         className={Styles.me}
       />
     </div>
