@@ -16,7 +16,7 @@ export default function About() {
       <Header />
       <div className={Styles.aboutContent}>
         <h1>Lorem ipsum dolor sit amet consectetur.</h1>
-        <img src="/me.png" alt="" />
+        <img src="/me.webp" alt="" />
         <p>
           I’ve always been creating. from drawing and music to coding websites
           and creating concepts for all types of projects. my career as a

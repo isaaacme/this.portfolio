@@ -42,7 +42,7 @@ export default function Lazuz() {
         <article className={Styles.ContentBlock}>
           <h3>{ProjectData.projects.lazuz.InfoTitle03}</h3>
           <p>{ProjectData.projects.lazuz.InfoText03}</p>
-          <img src="/imgs/survey-img.png" alt="" />
+          <img src="/imgs/survey-img.webp" alt="" />
         </article>
         <article className={`${Styles.ContentBlock} ${Styles.ContentBlockImg}`}>
           <h3>{ProjectData.projects.lazuz.InfoTitle04}</h3>
@@ -51,13 +51,13 @@ export default function Lazuz() {
             url="https://z4effq.axshare.com/onboarding.html"
             cta="Check the Axure"
           />
-          <img src="/imgs/axure.png" alt="" />
+          <img src="/imgs/axure.webp" alt="" />
         </article>
         <article>
           <h3>UI Design</h3>
           <div className={Styles.UiScreens}>
-            <img src="/imgs/lazuz-ui-01.png" alt="" />
-            <img src="/imgs/lazuz-ui-02.png" alt="" />
+            <img src="/imgs/lazuz-ui-01.webp" alt="" />
+            <img src="/imgs/lazuz-ui-02.webp" alt="" />
           </div>
         </article>
       </main>

@@ -53,16 +53,16 @@
 }
 
 .ProjectCard:nth-child(1) {
-  background-image: url(/imgs/lazuz.png);
+  background-image: url(/imgs/lazuz.webp);
 }
 .ProjectCard:nth-child(2) {
-  background-image: url(/imgs/deskspace.png);
+  background-image: url(/imgs/deskspace.webp);
 }
 .ProjectCard:nth-child(3) {
-  background-image: url(/imgs/schoolday.png);
+  background-image: url(/imgs/schoolday.webp);
 }
 .ProjectCard:nth-child(4) {
-  background-image: url(/imgs/logofolio.png);
+  background-image: url(/imgs/logofolio.webp);
 }
 .ProjectCard .cta {
   display: block;

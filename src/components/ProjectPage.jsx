@@ -1,7 +1,7 @@
-import React from "react";
-import Styles from "../styles/ProjectPage.module.css";
-import HighlightBox from "./HighlightBox";
-import LinkBlock from "./LinkBlock";
+import React from 'react';
+import Styles from '../styles/ProjectPage.module.css';
+import HighlightBox from './HighlightBox';
+import LinkBlock from './LinkBlock';
 
 function ProjectPage() {
   return (
@@ -47,7 +47,7 @@ function ProjectPage() {
           but not considered them a viable alternative to the commercial Gym
           they were members of.
         </p>
-        <img src="/imgs/survey-img.png" alt="" />
+        <img src="/imgs/survey-img.webp" alt="" />
       </article>
       <article className={`${Styles.ContentBlock} ${Styles.ContentBlockImg}`}>
         <h3>Wireframing</h3>
@@ -62,13 +62,13 @@ function ProjectPage() {
             cta="Check the Axure"
           />
         </p>
-        <img src="/imgs/axure.png" alt="" />
+        <img src="/imgs/axure.webp" alt="" />
       </article>
       <article>
         <h3>UI Design</h3>
         <div className={Styles.UiScreens}>
-          <img src="/imgs/lazuz-ui-01.png" alt="" />
-          <img src="/imgs/lazuz-ui-02.png" alt="" />
+          <img src="/imgs/lazuz-ui-01.webp" alt="" />
+          <img src="/imgs/lazuz-ui-02.webp" alt="" />
         </div>
       </article>
     </main>
