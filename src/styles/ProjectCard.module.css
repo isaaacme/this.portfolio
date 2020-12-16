@@ -2,7 +2,7 @@
   width: 240px;
   height: 427px;
   padding: 1.6rem;
-  background-size: contain;
+  background-size: cover;
   background-position: center;
   background-color: #444;
   display: grid;
@@ -78,4 +78,14 @@
 
 .ProjectCard .cta:hover {
   background-position: 999% 90%;
+}
+
+@media only screen and (max-width: 480px) {
+  .ProjectCard {
+    width: 200px;
+    height: 400px;
+    padding: 2rem 1rem;
+    justify-self: center;
+    align-self: center;
+  }
 }
