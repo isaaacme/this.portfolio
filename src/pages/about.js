@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Link from 'next/link';
 import Header from '../components/Header';
 import Stylesheet from '../styles/Layout.module.css';
 import Styles from '../styles/About.module.css';
@@ -34,6 +35,17 @@ export default function About() {
           move into production, and then finally launch followed by continuous
           optimization.
         </p>
+        <div className={Styles.socialLinks}>
+          <Link href="#">
+            <a>Twitter</a>
+          </Link>
+          <Link href="#">
+            <a>Github</a>
+          </Link>
+          <Link href="#">
+            <a>Facebook</a>
+          </Link>
+        </div>
       </div>
     </div>
   );
