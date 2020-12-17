@@ -16,7 +16,7 @@ export default function Schooolday() {
         ></meta>
       </Head>
       <Header />
-      <div className={Styles.ProjectTitle}>
+      <div className={`${Styles.ProjectTitle} ${Styles.SchooolDayTitle}`}>
         <h1>{ProjectData.projects.schooolday.projectTitle}</h1>
         <p>{ProjectData.projects.schooolday.projectBlurb}</p>
       </div>

@@ -16,7 +16,7 @@ export default function Logofolio() {
         ></meta>
       </Head>
       <Header />
-      <div className={Styles.ProjectTitle}>
+      <div className={`${Styles.ProjectTitle} ${Styles.LogoFolioTitle}`}>
         <h1>{ProjectData.projects.logofolio.projectTitle}</h1>
         <p>{ProjectData.projects.logofolio.projectBlurb}</p>
       </div>

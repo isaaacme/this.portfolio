@@ -16,7 +16,7 @@ export default function Lazuz() {
         ></meta>
       </Head>
       <Header />
-      <div className={Styles.ProjectTitle}>
+      <div className={`${Styles.ProjectTitle} ${Styles.LazuzTitle}`}>
         <h1>{ProjectData.projects.lazuz.projectTitle}</h1>
         <p>{ProjectData.projects.lazuz.projectBlurb}</p>
       </div>
@@ -48,16 +48,22 @@ export default function Lazuz() {
           <h3>{ProjectData.projects.lazuz.InfoTitle04}</h3>
           <p>{ProjectData.projects.lazuz.InfoText04}</p>
           <LinkBlock
-            url="https://z4effq.axshare.com/onboarding.html"
-            cta="Check the Axure"
+            url={ProjectData.projects.lazuz.wireFramingUrl}
+            cta={ProjectData.projects.lazuz.wireFrameCta}
           />
-          <img src="/imgs/axure.webp" alt="" />
+          <img src={ProjectData.projects.lazuz.wireFramingImg} alt="" />
         </article>
         <article>
           <h3>UI Design</h3>
           <div className={Styles.UiScreens}>
-            <img src="/imgs/lazuz-ui-01.webp" alt="" />
-            <img src="/imgs/lazuz-ui-02.webp" alt="" />
+            <img
+              src={ProjectData.projects.lazuz.UIimg01}
+              alt={ProjectData.projects.lazuz.UIimg01Alt}
+            />
+            <img
+              src={ProjectData.projects.lazuz.UIimg02}
+              alt={ProjectData.projects.lazuz.UIimg01Alt}
+            />
           </div>
         </article>
       </main>

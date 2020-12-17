@@ -17,7 +17,7 @@ export default function Deskspace() {
         ></meta>
       </Head>
       <Header />
-      <div className={Styles.ProjectTitle}>
+      <div className={`${Styles.ProjectTitle} ${Styles.DeskSpaceTitle}`}>
         <h1>{ProjectData.projects.deskspace.projectTitle}</h1>
         <p>{ProjectData.projects.deskspace.projectBlurb}</p>
       </div>
@@ -30,8 +30,8 @@ export default function Deskspace() {
           <p>{ProjectData.projects.deskspace.theSolution}</p>
         </article>
         <HighlightBox
-          symbol="🤸‍♀️"
-          label="person doing roll"
+          symbol="🏡"
+          label="a nice house"
           text={`${ProjectData.projects.deskspace.highLight}`}
         />
         <article className={Styles.ContentBlock}>
@@ -57,8 +57,8 @@ export default function Deskspace() {
         <article>
           <h3>UI Design</h3>
           <div className={Styles.UiScreens}>
-            <img src="/imgs/deskspace-ui-01.webp" alt="" />
-            <img src="/imgs/deskspace-ui-02.webp" alt="" />
+            <img src={ProjectData.projects.deskspace.UIimg01} alt="" />
+            <img src={ProjectData.projects.deskspace.UIimg02} alt="" />
           </div>
         </article>
       </main>

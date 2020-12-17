@@ -42,17 +42,15 @@
   padding-top: 2rem;
   display: block;
   width: 45%;
-  border: 2px solid var(--bg-dark);
 }
 
 .ProjectTitle {
   margin: 2rem 0;
   background-color: var(--main-color);
   background-blend-mode: multiply;
-  background-image: url(/imgs/lazuz.webp);
   background-size: 15% 100%;
   background-position: 16% center;
-  height: 40vh;
+  height: 48vh;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -60,6 +58,26 @@
   padding: 2rem 3rem;
   color: white;
 }
+
+.LazuzTitle {
+  background-image: url(/imgs/lazuz.webp);
+}
+
+.DeskSpaceTitle {
+  /* background-image: url(/imgs/lazuz.webp); */
+  background-color: greenyellow;
+}
+
+.SchooolDayTitle {
+  background-color: goldenrod;
+  /* background-image: url(/imgs/lazuz.webp); */
+}
+
+.LogoFolioTitle {
+  background-color: hotpink;
+  /* background-image: url(/imgs/lazuz.webp); */
+}
+
 .ProjectTitle h1 {
   font-family: var(--title-font);
   color: white;
