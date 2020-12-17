@@ -29,7 +29,7 @@ export default function Lazuz() {
           <p>{ProjectData.projects.lazuz.theSolution}</p>
         </article>
         <HighlightBox
-          symbol="🤸‍♀️"
+          symbol="🏋🏿‍♀️"
           label="person doing roll"
           text={`${ProjectData.projects.lazuz.highLight}`}
         />

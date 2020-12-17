@@ -1,19 +1,19 @@
 .HighlightBox {
-  border-left: 6px solid var(--color-accent);
-  background-color: var(--bg-dark);
+  border-left: 12px solid var(--color-accent);
+  background-color: var(--main-super-light);
   padding: 1rem;
   margin: 4rem 0;
   display: flex;
   align-items: center;
 }
-.HighlightBox p {
+.HighlightBox .HighlightText {
   margin-left: 1rem;
-  font-weight: bold;
+  font-weight: 700;
+  color: var(--main-light);
+  font-size: 1.5rem;
 }
 
 .HighlightBox .Emoji {
   font-size: 3rem;
-  background-color: var(--color-accent-light);
-  border-radius: 100%;
-  padding: 1rem;
+  padding: 1rem 1.15rem;
 }

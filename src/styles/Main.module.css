@@ -85,13 +85,13 @@
   .blurb {
     width: 100%;
     padding: 0.5rem 0 2rem;
-    font-size: 1rem;
+    font-size: 1.45rem;
   }
 
   .cta {
     max-width: 400px;
     font-size: 1.8rem;
-    background-size: 80%;
-    background-position: 45% 90%;
+    background-size: 54%;
+    background-position: 15% 70%;
   }
 }

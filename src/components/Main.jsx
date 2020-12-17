@@ -11,7 +11,7 @@ function Main() {
         you're not into abbreviations.
       </p>
       <Link href="/about">
-        <a className={Styles.cta}>Hire Me!</a>
+        <a className={Styles.cta}>Hire Me Now!</a>
       </Link>
       <img
         src="/profile-light-small.webp"

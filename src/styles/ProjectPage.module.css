@@ -46,23 +46,24 @@
 }
 
 .ProjectTitle {
-  margin: 2rem 0 4rem;
-  background-color: var(--main-light);
+  margin: 2rem 0;
+  background-color: var(--main-color);
   background-blend-mode: multiply;
   background-image: url(/imgs/lazuz.webp);
-  background-size: 16% 100%;
+  background-size: 15% 100%;
   background-position: 16% center;
-  height: 320px;
+  height: 40vh;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-end;
-  padding: 2rem;
+  padding: 2rem 3rem;
   color: white;
 }
 .ProjectTitle h1 {
   font-family: var(--title-font);
   color: white;
+  font-size: 4rem;
 }
 
 .ProjectTitle p {
@@ -76,14 +77,14 @@
     background-position: center;
   }
   .ProjectPageContent {
-    width: 420px;
-    padding: 2rem 0 2rem 2rem;
+    width: 100%;
+    padding: 1rem;
   }
   .ContentBlock {
     display: grid;
     gap: 1rem 0;
-    grid-template: 1.4rem/ 1fr 1fr;
-    padding: 4rem 0;
+    grid-template: 1fr / 1fr;
+    margin: 1rem 0;
   }
 
   .ContentBlock h3:nth-child(1) {
