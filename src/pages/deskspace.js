@@ -1,6 +1,5 @@
 import Head from 'next/head';
 import Header from '../components/Header';
-import ProjectData from '../data/projects.json';
 import HighlightBox from '../components/HighlightBox';
 import LinkBlock from '../components/LinkBlock';
 import StyleSheet from '../styles/Layout.module.css';
@@ -10,7 +9,7 @@ export default function Deskspace() {
   return (
     <div className={StyleSheet.PageContainer}>
       <Head>
-        <title>isaac feldman - web stuff maker</title>
+        <title>Desk Space - get your desk space.</title>
         <meta
           name="viewport"
           content="width=device-width, initial-scale=1"
@@ -18,7 +17,8 @@ export default function Deskspace() {
       </Head>
       <Header />
       <div className={`${Styles.ProjectTitle} ${Styles.DeskSpaceTitle}`}>
-        <h1>{ProjectData.projects.deskspace.projectTitle}</h1>
+        <h1>desk space</h1>
+        <pre>{`checkit! ${data.D.projects.deskspace.projectTitle}`}</pre>
         <p>{ProjectData.projects.deskspace.projectBlurb}</p>
       </div>
 
@@ -55,7 +55,7 @@ export default function Deskspace() {
           <img src="/imgs/axure.webp" alt="" />
         </article>
         <article>
-          <h3>UI Design</h3>
+          <h3>{ProjectData.projects.deskspace.UIScreenTitle}</h3>
           <div className={Styles.UiScreens}>
             <img src={ProjectData.projects.deskspace.UIimg01} alt="" />
             <img src={ProjectData.projects.deskspace.UIimg02} alt="" />

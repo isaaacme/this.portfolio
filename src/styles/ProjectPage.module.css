@@ -46,10 +46,10 @@
 
 .ProjectTitle {
   margin: 2rem 0;
-  background-color: var(--main-color);
+  background-color: var(--main-color-light);
   background-blend-mode: multiply;
-  background-size: 15% 100%;
-  background-position: 16% center;
+  background-size: 24% 100%;
+  background-position: 18% center;
   height: 48vh;
   display: flex;
   flex-direction: column;
@@ -64,8 +64,7 @@
 }
 
 .DeskSpaceTitle {
-  /* background-image: url(/imgs/lazuz.webp); */
-  background-color: greenyellow;
+  background-image: url(/imgs/deskspace.webp);
 }
 
 .SchooolDayTitle {
