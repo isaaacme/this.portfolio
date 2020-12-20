@@ -1,8 +1,7 @@
 import Head from 'next/head';
-import LinkBlock from '../components/LinkBlock';
+import CtaBlock from '../components/CtaBlock';
 import Header from '../components/Header';
 import HighlightBox from '../components/HighlightBox';
-import ProjectData from '../data/projects.json';
 import StyleSheet from '../styles/Layout.module.css';
 import Styles from '../styles/ProjectPage.module.css';
 export default function Schooolday() {
@@ -26,21 +25,31 @@ export default function Schooolday() {
       <main className={Styles.ProjectPageContent}>
         <article className={Styles.ContentBlock}>
           <h3>The Challenge</h3>
-          <p>{ProjectData.projects.schooolday.theChallenge}</p>
+          <p>
+            The rise of remote education due to COVID has created the need for
+            students and teachers alike to not only get familiar but use a chain
+            of products that were never intended for such a wide types of people
+            and levels of education, and the result is confusion, frustration
+            and less time actually learning.
+          </p>
           <h3>The Solution</h3>
-          <p>{ProjectData.projects.schooolday.theSolution}</p>
+          <p>
+            Schooday allows you to have a noise free environment so students and
+            teachers alike can communitace, ask quesptions, and focus on their
+            education.
+          </p>
         </article>
         <HighlightBox
           symbol="🧑‍🎓"
           label="student icon"
-          text={`${ProjectData.projects.schooolday.highLight}`}
+          text="About 40% of studdents never attend their online based schoolday and are considered drop-outs"
         />
-        <article className={Styles.ContentBlock}>
-          <h3>{ProjectData.projects.schooolday.InfoTitle}</h3>
-          <p>{ProjectData.projects.schooolday.InfoText}</p>
-          <h3>{ProjectData.projects.schooolday.InfoTitle02}</h3>
-          <p>{ProjectData.projects.schooolday.InfoText02}</p>
-        </article>
+        <CtaBlock
+          url="https://www.figma.com/proto/jbJzEnpabKZqNU82KrMk8b/Schooolday?node-id=147%3A332&scaling=min-zoom"
+          text="check out the Figma Prototype"
+          symbol="👉"
+          label="hand pointing right"
+        />
       </main>
     </div>
   );
