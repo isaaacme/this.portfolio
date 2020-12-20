@@ -88,6 +88,25 @@
   padding: 0.5rem 0;
 }
 
+.CtaBlock {
+  background-color: var(--bg-dark);
+  display: block;
+  text-align: center;
+  padding: 0.5rem 2rem;
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: var(--hover);
+}
+
+.CtaBlock:hover {
+  background-color: var(--color-accent-light);
+}
+
+.CtaBlock span {
+  margin-left: 1rem;
+}
+
 @media only screen and (max-width: 425px) {
   .ProjectTitle {
     background-size: cover;

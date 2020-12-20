@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import Header from '../components/Header';
+import CtaBlock from '../components/CtaBlock';
 import HighlightBox from '../components/HighlightBox';
-import LinkBlock from '../components/LinkBlock';
 import StyleSheet from '../styles/Layout.module.css';
 import Styles from '../styles/ProjectPage.module.css';
 
@@ -18,49 +18,40 @@ export default function Deskspace() {
       <Header />
       <div className={`${Styles.ProjectTitle} ${Styles.DeskSpaceTitle}`}>
         <h1>desk space</h1>
-        <pre>{`checkit! ${data.D.projects.deskspace.projectTitle}`}</pre>
-        <p>{ProjectData.projects.deskspace.projectBlurb}</p>
+        <p>
+          DeskSpace is a different and quieter option to get working spaces and
+          an oppotunity for office owners to collaborate and montize their
+          office space
+        </p>
       </div>
 
       <main className={Styles.ProjectPageContent}>
         <article className={Styles.ContentBlock}>
           <h3>The Challenge</h3>
-          <p>{ProjectData.projects.deskspace.theChallenge}</p>
+          <p>
+            Once a perk/company value, COVID has made WFH a reality for most
+            office workers - but many of them would still prefer a professional
+            enviorment away from home. At the same time, commercial Real Estate
+            is in constant decline, due to constant legal restrictions around
+            the world.
+          </p>
           <h3>The Solution</h3>
-          <p>{ProjectData.projects.deskspace.theSolution}</p>
+          <p>
+            providing a place for office owners and office working folk to
+            connect as an alternative to workspaces and WFH
+          </p>
         </article>
         <HighlightBox
           symbol="🏡"
           label="a nice house"
-          text={`${ProjectData.projects.deskspace.highLight}`}
+          text="34% of U.S. workers would take a pay cut of up to 5% in order to work remotely"
         />
-        <article className={Styles.ContentBlock}>
-          <h3>{ProjectData.projects.deskspace.InfoTitle}</h3>
-          <p>{ProjectData.projects.deskspace.InfoText}</p>
-          <h3>{ProjectData.projects.deskspace.InfoTitle02}</h3>
-          <p>{ProjectData.projects.deskspace.InfoText02}</p>
-        </article>
-        <article className={Styles.ContentBlock}>
-          <h3>{ProjectData.projects.deskspace.InfoTitle03}</h3>
-          <p>{ProjectData.projects.deskspace.InfoText03}</p>
-          <img src="/imgs/survey-img.webp" alt="" />
-        </article>
-        <article className={`${Styles.ContentBlock} ${Styles.ContentBlockImg}`}>
-          <h3>{ProjectData.projects.deskspace.InfoTitle04}</h3>
-          <p>{ProjectData.projects.deskspace.InfoText04}</p>
-          <LinkBlock
-            url="https://z4effq.axshare.com/onboarding.html"
-            cta="Check the Axure"
-          />
-          <img src="/imgs/axure.webp" alt="" />
-        </article>
-        <article>
-          <h3>{ProjectData.projects.deskspace.UIScreenTitle}</h3>
-          <div className={Styles.UiScreens}>
-            <img src={ProjectData.projects.deskspace.UIimg01} alt="" />
-            <img src={ProjectData.projects.deskspace.UIimg02} alt="" />
-          </div>
-        </article>
+        <CtaBlock
+          url="https://deskspace.netlify.app/"
+          text="check out the live project"
+          symbol="👉"
+          label="hand pointing right"
+        />
       </main>
     </div>
   );
