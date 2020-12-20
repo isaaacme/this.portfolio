@@ -1,8 +1,8 @@
-import Head from "next/head";
-import LinkBlock from "../components/LinkBlock";
-import Header from "../components/Header";
-import StyleSheet from "../styles/Layout.module.css";
-import Styles from "../styles/ProjectPage.module.css";
+import Head from 'next/head';
+import LinkBlock from '../components/LinkBlock';
+import Header from '../components/Header';
+import StyleSheet from '../styles/Layout.module.css';
+import Styles from '../styles/ProjectPage.module.css';
 export default function Logofolio() {
   return (
     <div className={StyleSheet.PageContainer}>
@@ -17,9 +17,8 @@ export default function Logofolio() {
       <div className={`${Styles.ProjectTitle} ${Styles.LogoFolioTitle}`}>
         <h1>Visual Design</h1>
         <p>
-          {" "}
-          A collection of Design work I've done for a plethora of clients
-          through the years
+          A collection of Design work I've created for a plethora of clients
+          throughout the years as a visual designer
         </p>
       </div>
 
