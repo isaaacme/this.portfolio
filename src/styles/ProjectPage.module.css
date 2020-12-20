@@ -46,46 +46,63 @@
 
 .ProjectTitle {
   margin: 2rem 0;
-  background-color: var(--main-color-light);
-  background-blend-mode: multiply;
-  background-size: 24% 100%;
-  background-position: 18% center;
   height: 48vh;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-end;
   padding: 2rem 3rem;
-  color: white;
+  color: var(--main-color);
+  text-transform: uppercase;
 }
 
 .LazuzTitle {
-  background-image: url(/imgs/lazuz.webp);
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    138deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
 }
 
 .DeskSpaceTitle {
-  background-image: url(/imgs/deskspace.webp);
+  background: rgb(34, 195, 40);
+  background: linear-gradient(
+    138deg,
+    rgba(34, 195, 40, 1) 0%,
+    rgba(253, 252, 45, 1) 100%
+  );
 }
 
 .SchooolDayTitle {
-  background-color: goldenrod;
-  /* background-image: url(/imgs/lazuz.webp); */
+  background: rgb(0, 153, 255);
+  background: linear-gradient(
+    315deg,
+    rgba(0, 153, 255, 1) 0%,
+    rgba(214, 145, 0, 1) 100%
+  );
 }
 
 .LogoFolioTitle {
-  background-color: hotpink;
-  /* background-image: url(/imgs/lazuz.webp); */
+  background: rgb(255, 0, 251);
+  background: linear-gradient(
+    138deg,
+    rgba(255, 0, 251, 1) 0%,
+    rgba(0, 117, 214, 1) 100%
+  );
 }
 
 .ProjectTitle h1 {
   font-family: var(--title-font);
-  color: white;
   font-size: 4rem;
+  color: var(--bg-color);
 }
 
 .ProjectTitle p {
   max-width: 40ch;
   padding: 0.5rem 0;
+  color: var(--bg-color);
 }
 
 .CtaBlock {

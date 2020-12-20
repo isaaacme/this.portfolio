@@ -9,7 +9,7 @@ export default function Schooolday() {
   return (
     <div className={StyleSheet.PageContainer}>
       <Head>
-        <title>isaac feldman - web stuff maker</title>
+        <title>Schooolday App</title>
         <meta
           name="viewport"
           content="width=device-width, initial-scale=1"
@@ -17,8 +17,11 @@ export default function Schooolday() {
       </Head>
       <Header />
       <div className={`${Styles.ProjectTitle} ${Styles.SchooolDayTitle}`}>
-        <h1>{ProjectData.projects.schooolday.projectTitle}</h1>
-        <p>{ProjectData.projects.schooolday.projectBlurb}</p>
+        <h1>Schooolday</h1>
+        <p>
+          Schooolday gives teachers and students a noise-free enviorment to
+          communicate and learn
+        </p>
       </div>
       <main className={Styles.ProjectPageContent}>
         <article className={Styles.ContentBlock}>
