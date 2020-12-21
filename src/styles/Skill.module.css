@@ -4,7 +4,7 @@
   display: grid;
   gap: 1rem 0;
   grid-template: 4rem repeat(2, 1fr) / 1fr;
-  height: 21rem;
+  height: 18rem;
 }
 
 .SkillCard {

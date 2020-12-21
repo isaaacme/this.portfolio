@@ -1,5 +1,5 @@
 .ProjectCard {
-  width: 24rem;
+  /* width: 24rem; */
   height: 21rem;
   padding: 1rem 1.6rem;
   background-size: cover;
@@ -52,7 +52,7 @@
   background-image: url(/yellow-arrow.svg);
   background-size: 10rem;
   background-repeat: no-repeat;
-  background-position: 16% 110%;
+  background-position: 8% 116%;
   transition: var(--hover);
 }
 
