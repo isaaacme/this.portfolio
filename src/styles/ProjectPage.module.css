@@ -124,6 +124,19 @@
   margin-left: 1rem;
 }
 
+.DesignCards {
+  display: grid;
+  grid-template: 1fr / repeat(4, 1fr);
+  gap: 2rem;
+  padding: 0;
+  width: 100%;
+  margin: 4rem 0;
+}
+
+.DesignCards img {
+  width: 100%;
+}
+
 @media only screen and (max-width: 425px) {
   .ProjectTitle {
     background-size: cover;

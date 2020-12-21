@@ -39,6 +39,14 @@ function Work() {
           cta="Check it out"
           url="/logofolio"
         />
+
+        <ProjectCard
+          logo="/logos/logofolio.svg"
+          alt=""
+          description="A collection of Branding Work I've done so far"
+          cta="Check it out"
+          url="/logofolio"
+        />
       </div>
     </section>
   );

@@ -1,5 +1,4 @@
 import Head from 'next/head';
-import LinkBlock from '../components/LinkBlock';
 import Header from '../components/Header';
 import StyleSheet from '../styles/Layout.module.css';
 import Styles from '../styles/ProjectPage.module.css';
@@ -23,7 +22,17 @@ export default function Logofolio() {
       </div>
 
       <main className={`${Styles.ProjectPageContent} ${Styles.DesignCards}`}>
-        <img src="" alt="" />
+        <img src="/works/1.webp" alt="4 profesors logo" />
+        <img src="/works/2.webp" alt="4 profesors logo" />
+        <img src="/works/3.webp" alt="4 profesors logo" />
+        <img src="/works/4.webp" alt="4 profesors logo" />
+        <img src="/works/5.webp" alt="4 profesors logo" />
+        <img src="/works/6.webp" alt="4 profesors logo" />
+        <img src="/works/7.webp" alt="4 profesors logo" />
+        <img src="/works/8.webp" alt="4 profesors logo" />
+        <img src="/works/12.webp" alt="4 profesors logo" />
+        <img src="/works/13.webp" alt="4 profesors logo" />
+        <img src="/works/15.webp" alt="4 profesors logo" />
       </main>
     </div>
   );
