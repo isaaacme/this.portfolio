@@ -11,11 +11,32 @@ export default function About() {
           name="viewport"
           content="width=device-width, initial-scale=1"
         ></meta>
+        
       </Head>
       <Header />
       <div className={Styles.aboutContent}>
         <img src="/me.webp" />
         <h1>Oh hi, so glad to see you!</h1>
+        <div className={Styles.socialLinks}>
+        <p>
+          I am open to full-time positions, preferably on small startups. 
+          Here's some useful links for you,  oh-so-cool-and-good-looking potential employer! <span>😎 😘 🤑 😉</span>
+        </p>
+        <a href="https://www.notion.so/isaaac/My-Resume-cee5746113594c5f89b9835f5cfa1d3a" target="_blank">
+            Notion CV
+          </a>
+          <a href="https://twitter.com/isaaacme" target="_blank">
+            Twitter
+          </a>
+          <a href="https://www.linkedin.com/in/isaac-feldman/" target="_blank">
+            Linkedin
+          </a>
+          <a href="https://github.com/isaaacme" target="_blank">
+            Github
+          </a>
+
+        </div>
+
         <p>
           <h3>You're probably wondering how i got here, so...</h3>
           I’ve always been creating. from drawing and music to coding websites
@@ -36,25 +57,6 @@ export default function About() {
           move into production, and then finally launch followed by continuous
           optimization.
         </p>
-        <div className={Styles.socialLinks}>
-        <p>
-          I am open to full-time positions, preferably on small startups. 
-          Here's some useful links for you,  oh-so-cool-and-good-looking potential employer! <span>😎 😘 🤑 😉</span>
-        </p>
-        <a href="https://www.notion.so/isaaac/My-Resume-cee5746113594c5f89b9835f5cfa1d3a" target="_blank">
-            Notion CV
-          </a>
-          <a href="https://twitter.com/isaaacme" target="_blank">
-            Twitter
-          </a>
-          <a href="https://www.linkedin.com/in/isaac-feldman/" target="_blank">
-            Linkedin
-          </a>
-          <a href="https://github.com/isaaacme" target="_blank">
-            Github
-          </a>
-
-        </div>
       </div>
     </div>
   );

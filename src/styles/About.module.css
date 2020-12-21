@@ -81,6 +81,11 @@
 
   }
 
+  .aboutContent div:nth-child(5){
+    background-color: khaki;
+    order:3;
+  }
+
   .aboutContent h1{
     font-size: 3.5rem;
     font-weight: bold;
