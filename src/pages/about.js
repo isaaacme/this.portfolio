@@ -17,6 +17,7 @@ export default function About() {
         <img src="/me.webp" />
         <h1>Oh hi, so glad to see you!</h1>
         <p>
+          <h3>You're probably wondering how i got here, so...</h3>
           I’ve always been creating. from drawing and music to coding websites
           and creating concepts for all types of projects. my career as a
           designer begun as an autodidact, designing party brochures and

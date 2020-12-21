@@ -29,6 +29,11 @@
   font-size: 1.4rem;
 }
 
+.aboutContent h3{
+  font-size: 2rem;
+  margin-bottom: .75rem;
+}
+
 
 .socialLinks {
   grid-column: 2/ 4;
