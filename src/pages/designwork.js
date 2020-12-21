@@ -21,16 +21,27 @@ export default function Logofolio() {
         </p>
       </div>
 
-      <main className={`${Styles.ProjectPageContent} ${Styles.DesignCards}`}>
-        <img src="/works/dab-big.webp" alt="4 profesors logo" />
-        <img src="/works/2.webp" alt="4 profesors logo" />
-        <img src="/works/5.webp" alt="4 profesors logo" />
-        <img src="/works/6.webp" alt="4 profesors logo" />
-        <img src="/works/.webp" alt="4 profesors logo" />
-        <img src="/works/12.webp" alt="4 profesors logo" />
-        <img src="/works/13.webp" alt="4 profesors logo" />
-        <img src="/works/15.webp" alt="4 profesors logo" />
-      </main>
+      <div className={Styles.ProjectPageContent}>
+        <div className={`${Styles.DesignCards} ${Styles.FirstGrid}`}>
+          <img src="/works/dab-big.webp" alt="Douglas &and; Bloomberg" />
+          <img src="/works/2.webp" alt="Paz Interactive" />
+          <img src="/works/5.webp" alt="Tamar Guzansky" />
+          <img src="/works/6.webp" alt="Yesodot Hazoar" />
+          <img src="/works/8.webp" alt="Yunger Budik law firm" />
+          <img src="/works/12.webp" alt="Douglas &and; Bloomberg logo" />
+          <img src="/works/13.webp" alt="Golan Systems" />
+          <img src="/works/15.webp" alt="Elad Rosenberg" />
+        </div>
+        <div className={`${Styles.DesignCards} ${Styles.SecondGrid}`}>
+          <img src="/works/22.webp" alt="Elad Rosenberg logo on water bottle"/>
+          <img src="/works/water.webp" alt="qqqqq"/>
+
+       
+      </div>
+      </div>
+
+ 
+
     </div>
   );
 }
