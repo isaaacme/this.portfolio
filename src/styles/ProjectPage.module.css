@@ -231,4 +231,13 @@
   .UiScreens img {
     margin-top: 1rem;
   }
+
+  .DesignCards {
+    display: flex;
+    flex-direction: column;
+  }
+  .FirstGrid:nth-child(1):before{
+    display: none;
+  }
+
 }
