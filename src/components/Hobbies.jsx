@@ -6,7 +6,7 @@ function Hobbies(props) {
   return (
     <section>
       <h2 className={`${Styles.SectionTitle} ${Styles.SectionSkills}`}>
-        what else i’ve got <br /> up my sleeves you may ask?
+        some other things <br /> i enjoy doing
       </h2>
       <div className={`${Styles.SkillsGrid} ${Styles.hobbies}`}>
         <Card
