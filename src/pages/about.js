@@ -14,8 +14,8 @@ export default function About() {
       </Head>
       <Header />
       <div className={Styles.aboutContent}>
-        <h1>Lorem ipsum dolor sit amet consectetur.</h1>
-        <img src="/me.webp" alt="Having a cold one in a meetup" />
+        <img src="/me.webp" />
+        <h1>Oh hi, so glad to see you!</h1>
         <p>
           I’ve always been creating. from drawing and music to coding websites
           and creating concepts for all types of projects. my career as a
@@ -29,21 +29,30 @@ export default function About() {
           allowed, and so I worked constantly to sharp my coding skills and the
           learning all I could regarding what are digital products and how I
           could incorporate my previous experience to push me forward in this
-          space. Now I’m in a place where I believe I can bring maximum value to
+          space.
+          Now I’m in a place where I believe I can bring maximum value to
           my clients by going through the entire product cycle: from ideation,
           move into production, and then finally launch followed by continuous
           optimization.
         </p>
         <div className={Styles.socialLinks}>
+        <p>
+          I am open to full-time positions, preferably on small startups. 
+          Here's some useful links for you,  oh-so-cool-and-good-looking potential employer! <span>😎 😘 🤑 😉</span>
+        </p>
+        <a href="https://www.notion.so/isaaac/My-Resume-cee5746113594c5f89b9835f5cfa1d3a" target="_blank">
+            Notion CV
+          </a>
           <a href="https://twitter.com/isaaacme" target="_blank">
             Twitter
-          </a>
-          <a href="https://github.com/isaaacme" target="_blank">
-            Github
           </a>
           <a href="https://www.linkedin.com/in/isaac-feldman/" target="_blank">
             Linkedin
           </a>
+          <a href="https://github.com/isaaacme" target="_blank">
+            Github
+          </a>
+
         </div>
       </div>
     </div>
