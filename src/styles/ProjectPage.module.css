@@ -152,7 +152,7 @@
   grid-column: 1 / 4;
   grid-row: 1 /3;
   display: block;
-  content: '34324234242';
+  content: '.';
   background-color: white;
   height: 1fr;
   width: 1fr;
