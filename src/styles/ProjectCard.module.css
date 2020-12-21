@@ -62,10 +62,14 @@
 
 @media only screen and (max-width: 425px) {
   .ProjectCard {
-    width: 200px;
-    height: 400px;
-    padding: 2rem 1rem;
+    width: 100%;
+    height: 360px;
+    padding: 2rem;
     justify-self: center;
     align-self: center;
+  }
+
+  .ProjectCard img{
+    justify-self: center;
   }
 }
