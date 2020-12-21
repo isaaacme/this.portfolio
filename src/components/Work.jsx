@@ -33,19 +33,19 @@ function Work() {
         />
 
         <ProjectCard
-          logo="/logos/logofolio.svg"
+          logo="/logos/blicode.svg"
           alt=""
-          description="A collection of Branding Work I've done so far"
+          description="a Product Studio focused on getting non-technical founders to market faster"
           cta="Check it out"
-          url="/logofolio"
+          url="/blicode"
         />
 
         <ProjectCard
-          logo="/logos/logofolio.svg"
+          logo="/logos/designwork.svg"
           alt=""
-          description="A collection of Branding Work I've done so far"
+          description="A collection of Visual Design Work I've done so far"
           cta="Check it out"
-          url="/logofolio"
+          url="/designwork"
         />
       </div>
     </section>

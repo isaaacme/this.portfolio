@@ -1,5 +1,4 @@
 import Head from 'next/head';
-import Link from 'next/link';
 import Header from '../components/Header';
 import Stylesheet from '../styles/Layout.module.css';
 import Styles from '../styles/About.module.css';
@@ -16,6 +15,7 @@ export default function About() {
       <Header />
       <div className={Styles.aboutContent}>
         <h1>Lorem ipsum dolor sit amet consectetur.</h1>
+        <pre>{data}</pre>
         <img src="/me.webp" alt="Having a cold one in a meetup" />
         <p>
           I’ve always been creating. from drawing and music to coding websites

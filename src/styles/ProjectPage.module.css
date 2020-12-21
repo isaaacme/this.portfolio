@@ -84,12 +84,22 @@
   );
 }
 
-.LogoFolioTitle {
-  background: rgb(255, 0, 251);
+.DesignWork {
+  background: rgb(0, 76, 255);
   background: linear-gradient(
     138deg,
-    rgba(255, 0, 251, 1) 0%,
-    rgba(0, 117, 214, 1) 100%
+    rgba(0, 76, 255, 0.43599446614583337) 0%,
+    rgba(26, 0, 214, 1) 100%
+  );
+}
+
+.Blicode {
+  background: rgb(1, 27, 79);
+  background: linear-gradient(
+    137deg,
+    rgba(1, 27, 79, 1) 0%,
+    rgba(245, 86, 78, 1) 50%,
+    rgba(250, 185, 91, 1) 100%
   );
 }
 
@@ -135,6 +145,15 @@
 
 .DesignCards img {
   width: 100%;
+}
+
+.BlicodeContent {
+  display: block;
+  max-width: 50ch;
+}
+
+.BlicodeContent h3:first-child {
+  margin-bottom: 0.75rem;
 }
 
 @media only screen and (max-width: 425px) {

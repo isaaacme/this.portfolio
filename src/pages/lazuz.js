@@ -2,7 +2,6 @@ import Head from 'next/head';
 import LinkBlock from '../components/LinkBlock';
 import Header from '../components/Header';
 import HighlightBox from '../components/HighlightBox';
-import ProjectData from '../data/projects.json';
 import StyleSheet from '../styles/Layout.module.css';
 import Styles from '../styles/ProjectPage.module.css';
 export default function Lazuz() {

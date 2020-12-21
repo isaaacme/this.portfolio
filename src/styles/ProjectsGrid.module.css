@@ -1,7 +1,7 @@
 .ProjectsGrid {
   padding: 4rem 0;
   display: grid;
-  grid: 1fr / repeat(4, 1fr);
+  grid: 1fr / repeat(3, 1fr);
   gap: 2rem;
 }
 

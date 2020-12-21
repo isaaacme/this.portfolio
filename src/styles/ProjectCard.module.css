@@ -1,31 +1,28 @@
 .ProjectCard {
-  width: 240px;
-  height: 427px;
-  padding: 1.6rem;
+  width: 24rem;
+  height: 21rem;
+  padding: 1rem 1.6rem;
   background-size: cover;
   background-position: center;
-  background-color: #444;
+  background-color: var(--main-super-light);
   display: grid;
-  grid: 5rem / 1fr;
-  background-blend-mode: multiply;
-  color: white;
+  grid: 4rem / 1fr;
+  color: var(--main-color);
 }
 
 .ProjectInfo {
   display: grid;
-  grid: 2.5rem 8rem 1fr / 1fr;
+  grid: 2.5rem 1fr 1fr / 1fr;
   gap: 1rem 0;
 }
 .ProjectCard .title {
   padding: 1rem 0;
   text-align: center;
-  font-size: 0.85rem;
   font-style: italic;
   opacity: 0.65;
 }
 .ProjectCard p {
   justify-self: start;
-  font-size: 1rem;
   grid-row: 2 / span 1;
   line-height: 1.35;
 }
@@ -40,42 +37,22 @@
 
 .ProjectCard img {
   height: auto;
-  padding: 1rem 0;
+  padding: 1rem 0.5rem;
   width: 150px;
-  text-align: center;
-  align-self: center;
-  justify-self: center;
+  text-align: start;
+  justify-self: self-start;
 }
 
-.ProjectCard:nth-child(4) img {
-  padding-top: 0.75rem;
-  width: 120px;
-}
-
-.ProjectCard:nth-child(1) {
-  background-image: url(/imgs/lazuz.webp);
-}
-.ProjectCard:nth-child(2) {
-  background-image: url(/imgs/deskspace.webp);
-}
-.ProjectCard:nth-child(3) {
-  background-image: url(/imgs/schoolday.webp);
-}
-.ProjectCard:nth-child(4) {
-  background-image: url(/imgs/logofolio.webp);
-}
-.ProjectCard:nth-child(5) {
-  background-image: url(/imgs/logofolio.webp);
-}
 .ProjectCard .cta {
+  font-size: 1.5rem;
   display: block;
   font-weight: 700;
   text-transform: uppercase;
-  padding: 1rem 0.25rem;
+  padding: 0.5rem;
   background-image: url(/yellow-arrow.svg);
-  background-size: 8rem;
+  background-size: 10rem;
   background-repeat: no-repeat;
-  background-position: 40% 90%;
+  background-position: 16% 110%;
   transition: var(--hover);
 }
 
