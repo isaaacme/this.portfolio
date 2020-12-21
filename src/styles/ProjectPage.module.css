@@ -143,6 +143,10 @@
   margin: 4rem 0;
 }
 
+.DesignCards img:nth-child(1){
+  grid-column: 1 / 4;
+}
+
 .DesignCards img {
   width: 100%;
 }

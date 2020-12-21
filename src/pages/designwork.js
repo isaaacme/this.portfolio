@@ -22,7 +22,7 @@ export default function Logofolio() {
       </div>
 
       <main className={`${Styles.ProjectPageContent} ${Styles.DesignCards}`}>
-        <img src="/works/1.webp" alt="4 profesors logo" />
+        <img src="/works/dab-set.webp" alt="4 profesors logo" />
         <img src="/works/2.webp" alt="4 profesors logo" />
         <img src="/works/3.webp" alt="4 profesors logo" />
         <img src="/works/4.webp" alt="4 profesors logo" />
