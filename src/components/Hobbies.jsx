@@ -17,10 +17,10 @@ function Hobbies(props) {
           link="true"
         />
         <Card
-          title="samimkashim.xyz"
+          title="samimkashim.shop"
           description="Exclusive clothing brand from the weird side of the internet, brought to you risk free of dark web hackers and internet lurkers"
           cta="buy things"
-          url="https://www.redbubble.com/people/tnoar/explore?page=1&sortOrder=recent"
+          url="https://samimkashim.shop/"
           link="true"
         />
       </div>
