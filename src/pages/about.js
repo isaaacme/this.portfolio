@@ -15,13 +15,17 @@ export default function About() {
       </Head>
       <Header />
       <div className={Styles.aboutContent}>
-        <img src="/me.webp" />
+        <img src="/profile-light-small.webp" />
         <h1>Oh hi, so glad to see you!</h1>
         <div className={Styles.socialLinks}>
         <p>
           I am open to full-time positions, preferably on small startups. 
           Here's some useful links for you,  oh-so-cool-and-good-looking potential employer! <span>😎 😘 🤑 😉</span>
         </p>
+        <a href="/Resume_isaaacme.pdf" target="_blank">
+            Regular CV
+          </a>
+
         <a href="https://www.notion.so/isaaac/My-Resume-cee5746113594c5f89b9835f5cfa1d3a" target="_blank">
             Notion CV
           </a>
