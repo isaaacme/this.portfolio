@@ -25,7 +25,7 @@ export default function Home() {
           <meta property="twitter:title" content="Hi, I'm Isaac. a Web Stuff Maker"></meta>
           <meta property="twitter:description" content="or a Web developer & Designer resolving end to end business problems, if you're not into abbreviations."></meta>
           <meta property="twitter:image" content="https://isaaac.me/card.png"></meta>
-          <title>Hi, I'm Isaac. a Web Stuff Maker</title>
+          <title>Hi, I'm Isaac. a Designer</title>
       </Head>
       <Header />
       <Main />
@@ -35,25 +35,3 @@ export default function Home() {
     </div>
   );
 }
-
-
-/*
-
-
-<meta name="title" content="Hi, I'm Isaac. a Web Stuff Maker"></meta>
-<meta name="description" content="or a Web developer & Designer resolving end to end business problems, if you're not into abbreviations."></meta>
-
-<meta property="og:type" content="website"></meta>
-<meta property="og:url" content="https://isaaac.me/"></meta>
-<meta property="og:title" content="Hi, I'm Isaac. a Web Stuff Maker"></meta>
-<meta property="og:description" content="or a Web developer & Designer resolving end to end business problems, if you're not into abbreviations."></meta>
-<meta property="og:image" content=""></meta>
-
-<meta property="twitter:card" content="summary_large_image"></meta>
-<meta property="twitter:url" content="https://isaaac.me/"></meta>
-<meta property="twitter:title" content="Hi, I'm Isaac. a Web Stuff Maker"></meta>
-<meta property="twitter:description" content="or a Web developer & Designer resolving end to end business problems, if you're not into abbreviations."></meta>
-<meta property="twitter:image" content=""></meta>
-
-
-*/
