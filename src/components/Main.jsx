@@ -16,10 +16,10 @@ function Main() {
 />
         {/* a Web Stuff Maker */}
       </h1>
-      {/* <p className={Styles.blurb}>
+      <p className={Styles.blurb}>
         or a Web developer & Designer resolving end to end business problems, if
         you're not into abbreviations.
-      </p> */}
+      </p>
       <Link href="/about">
         <a className={Styles.cta}>Hire Me Now!</a>
       </Link>
