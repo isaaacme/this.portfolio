@@ -22,7 +22,7 @@ export default function Logofolio() {
       </div>
 
       <div className={Styles.ProjectPageContent}>
-        <div className={`${Styles.DesignCards} ${Styles.FirstGrid}`}>
+        <div className={Styles.FirstGrid}>
           <img src="/works/dab-big.webp" alt="Douglas &and; Bloomberg" />
           <img src="/works/2.webp" alt="Paz Interactive" />
           <img src="/works/5.webp" alt="Tamar Guzansky" />

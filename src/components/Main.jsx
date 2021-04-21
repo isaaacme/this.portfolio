@@ -14,7 +14,6 @@ function Main() {
     loop: true,
   }}
 />
-        {/* a Web Stuff Maker */}
       </h1>
       <p className={Styles.blurb}>
         or a Web developer & Designer resolving end to end business problems, if

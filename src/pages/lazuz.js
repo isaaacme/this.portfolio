@@ -15,7 +15,7 @@ export default function Lazuz() {
         ></meta>
       </Head>
       <Header />
-      <div className={`${Styles.ProjectTitle} ${Styles.LazuzTitle}`}>
+      <div className={Styles.ProjectTitle}>
         <h1>lazuz</h1>
         <p>
           Lazuz is an app that builds a positive feedback loop and keeps you on
